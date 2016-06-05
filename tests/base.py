@@ -8,9 +8,9 @@ import json
 ###Base Objects###
 
 
-####Need to setup to read the AuthKey and devid from a separate file that is encoded, so can't be easily found in the source or on github
 devid='1552'
-Authkey='DAF3EBE667BA4C4C94EACF26A59A9C7D'
+dev=open('dev.txt','r')
+Authkey=dev.read()
 apibase='http://api.smitegame.com/smiteapi.svc/'
 
 
