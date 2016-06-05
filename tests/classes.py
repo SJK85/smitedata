@@ -4,7 +4,8 @@ import time
 import json
 
 devid='1552'
-Authkey='DAF3EBE667BA4C4C94EACF26A59A9C7D'
+dev=open('dev.txt','r')
+Authkey=dev.read()
 apibase='http://api.smitegame.com/smiteapi.svc/'
 
 def stamp():
